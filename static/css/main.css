@@ -1,0 +1,55 @@
+#CountdownWrapper {height:150px; width:760px; padding-top:10px; margin: 0 auto; background-color:#fff; border:none; color:#04445e;}
+.hasCountdown {}
+#CountdownWrapper .countdown_amount {font-size:60px; line-height:40px; color:#3ba1b6; font-family:Arial, Helvetica, sans-serif; font-weight:bold; letter-spacing:-4px}
+#CountdownWrapper .countdown_unit{ font-size:20px;}
+
+.hasCountdown {
+	border: 1px solid #ccc;
+	background-color: #eee;
+}
+.countdown_rtl {
+	direction: rtl;
+}
+.countdown_holding span {
+	background-color: #ccc;
+}
+.countdown_row {
+	clear: both;
+	width: 100%;
+	padding: 0px 2px;
+	text-align: center;
+}
+.countdown_show1 .countdown_section {
+	width: 98%;
+}
+.countdown_show2 .countdown_section {
+	width: 48%;
+}
+.countdown_show3 .countdown_section {
+	width: 32.5%;
+}
+.countdown_show4 .countdown_section {
+	width: 15.5%;
+}
+.countdown_show5 .countdown_section {
+	width: 19.5%;
+}
+.countdown_show6 .countdown_section {
+	width: 16.25%;
+}
+.countdown_show7 .countdown_section {
+	width: 14%;
+}
+.countdown_section {
+	display: block;
+	float: left;
+	font-size: 75%;
+	text-align: center;
+}
+.countdown_amount {
+	font-size: 200%;
+}
+.countdown_descr {
+	display: block;
+	width: 100%;
+}
