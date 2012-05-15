@@ -13,11 +13,11 @@ Add JQuery Countdown easily to your page/post with one shortcode only
 Easily add JQuery Countdown easily to your page/post with one shortcode only
 
 Example:
-[wpc_countdown] => Will show next 7 days countdown
-[wpc_countdown targetdate="2012-05-17"] => format target date "Y-m-d"
-[wpc_countdown targetdate="2012-05-17" before="<div>" after="</div>"] => if you want to use wrapper.
+`[wpc_countdown]` => Will show next 7 days countdown
+`[wpc_countdown targetdate="2012-05-17"]` => format target date "Y-m-d"
+`[wpc_countdown targetdate="2012-05-17" before="<div>" after="</div>"]` => if you want to use wrapper.
 
-See my article [WordPress Countdown Plugin](http://goo.gl/500FU) for details.
+See my article [WordPress Countdown Plugin](http://goo.gl/kvfwD) for details.
 
 Other interesting stuff:
 
