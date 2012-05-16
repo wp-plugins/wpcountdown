@@ -4,7 +4,7 @@
  * Short Name: wp_countdown
  * Description: Show Countdown in a post or page
  * Author: Ivan Kristianto
- * Version: 1.0
+ * Version: 1.1
  * Requires at least: 2.7
  * Tested up to: 3.1
  * Tags: countdown, timer
@@ -156,17 +156,20 @@ class wp_countdown{
 		), $attr));
 		
 		if(empty($targetdate)){
-			$targetdate = date('Y-m-d', strtotime("+7 day"));
+			$targetdate = date('Y-m-d-H-i-s', strtotime("+7 day"));
 		}
 		$temp = explode("-",$targetdate);
 		$year = $temp[0];
 		$month = $temp[1];
 		$day = $temp[2];
+		$hour = empty($temp[3])? 0 : $temp[3];
+		$minutes = empty($temp[4])? 0 : $temp[4];
+		$seconds = empty($temp[5])? 0 : $temp[5];
 		$output = <<<end
 			<div id="CountdownWrapper"></div>
 			<script type="text/javascript">
 				var endDay = new Date();
-				endDay = new Date($year, $month - 1, $day);
+				endDay = new Date($year, $month - 1, $day, $hour, $minutes, $seconds);
 				 jQuery(document).ready(function() {
 				   jQuery('#CountdownWrapper').countdown({until: endDay});
 				   

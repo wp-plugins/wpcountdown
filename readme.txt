@@ -4,7 +4,7 @@ Donate link: http://www.ivankristianto.com/portfolio/
 Tags: noindex, nofollow, seo, google panda
 Requires at least: 3.0
 Tested up to: 3.3.2
-Stable tag: 1.0
+Stable tag: 1.1
 
 Add JQuery Countdown easily to your page/post with one shortcode only
 
@@ -13,8 +13,9 @@ Add JQuery Countdown easily to your page/post with one shortcode only
 Easily add JQuery Countdown easily to your page/post with one shortcode only
 
 Example:
-`[wpc_countdown]` => Will show next 7 days countdown
-`[wpc_countdown targetdate="2012-05-17"]` => format target date "Y-m-d"
+`[wpc_countdown]` Will show next 7 days countdown
+`[wpc_countdown targetdate="2012-05-17"]` format target date "Year-Month-Day"
+`[wpc_countdown targetdate="2012-05-17-23-59-59"]` format target date "Year-Month-Day-Hour-Minute-Second"
 `[wpc_countdown targetdate="2012-05-17" before="<div>" after="</div>"]` => if you want to use wrapper.
 
 See my article [WordPress Countdown Plugin](http://goo.gl/kvfwD) for details.
@@ -33,6 +34,9 @@ This section describes how to install the plugin and get it working.
 3. Add <code>[wpc_countdown]</code> in your post
 
 == Changelog ==
+
+= 1.1 =
+* Make format target available with "Year-Month-Day-Hour-Minute-Second"
 
 = 1.0 =
 * First release of the plugin.
