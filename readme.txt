@@ -35,6 +35,9 @@ This section describes how to install the plugin and get it working.
 
 == Changelog ==
 
+= 1.2 =
+* WordPress 4.2.* compatibility
+
 = 1.1 =
 * Make format target available with "Year-Month-Day-Hour-Minute-Second"
 
