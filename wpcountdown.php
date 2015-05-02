@@ -4,9 +4,9 @@
  * Short Name: wp_countdown
  * Description: Show Countdown in a post or page
  * Author: Ivan Kristianto
- * Version: 1.1
+ * Version: 1.2
  * Requires at least: 2.7
- * Tested up to: 3.1
+ * Tested up to: 4.2.1
  * Tags: countdown, timer
  * Contributors: Ivan Kristianto
  *
